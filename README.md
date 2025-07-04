@@ -1,4 +1,4 @@
-## Team 20 (QR Code generator)
+# Team 20 (QR Code generator)
 
   L Jessica Effrosin
 
