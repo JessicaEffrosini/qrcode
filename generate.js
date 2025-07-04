@@ -10,7 +10,7 @@ function generateQR() {
   }
 
   const encodedText = encodeURIComponent(input);
-  const apiURL = https://api.qrserver.com/v1/create-qr-code/?data=${encodedText}&size=200x200;
+  const apiURL = `https://api.qrserver.com/v1/create-qr-code/?data=${encodedText}&size=200x200`;
 
   // Create QR Image
   const img = document.createElement("img");
@@ -20,7 +20,7 @@ function generateQR() {
 
   // Create clickable link
   const link = document.createElement("a");
-  link.href = input.startsWith("http") ? input : https://${input};
+  link.href = input.startsWith("http") ? input : `https://${input}`;
   link.innerText = input;
   link.target = "_blank";
 
