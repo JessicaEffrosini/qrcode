@@ -14,7 +14,7 @@ A sleek and responsive web app that generates QR codes from any text or URL usin
 
 ## 🌐 Live Preview
 
-
+https://jessicaeffrosini.github.io/qrcode/
 
 
 
