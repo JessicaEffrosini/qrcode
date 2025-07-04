@@ -12,6 +12,7 @@ function generateQR() {
   const encodedText = encodeURIComponent(input);
   const apiURL = `https://api.qrserver.com/v1/create-qr-code/?data=${encodedText}&size=200x200`;
 
+
   // Create QR Image
   const img = document.createElement("img");
   img.src = apiURL;
