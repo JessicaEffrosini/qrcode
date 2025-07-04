@@ -1,0 +1,91 @@
+/* Background */
+.bg-gradient {
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+}
+
+/* QR Card Styling */
+.qr-card {
+  background-color: #ffffff;
+  max-width: 400px;
+  width: 90%;
+  border-radius: 15px;
+}
+
+/* Button */
+.btn-custom {
+  background-color: #6c63ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+  background-color: #574fd6;
+}
+
+/* QR Image and Link */
+#qrcode img {
+  margin-top: 15px;
+  max-width: 200px;
+}
+#qrcode a {
+  display: block;
+  margin-top: 10px;
+  color: #0d6efd;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+/* Admin Icon */
+.admin-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: lavender;
+  padding: 5px;
+}
+
+/* Custom Navbar */
+.custom-navbar {
+  background-color: #574fd6 !important;
+}
+.navbar-brand img {
+  width: 24px;
+  height: 24px;
+}
+.navbar .text-white {
+  color: white !important;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+.dark-mode .bg-gradient {
+  background: linear-gradient(to right, #1e1e1e, #333333);
+}
+.dark-mode .qr-card {
+  background-color: #1f1f1f;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.dark-mode input,
+.dark-mode .btn-custom {
+  background-color: #2c2c2c;
+  color: #fff;
+  border: 1px solid #444;
+}
+.dark-mode #qrcode a {
+  color: #90caf9;
+}
+.dark-mode .custom-navbar {
+  background-color: #2e2e70 !important;
+}
+.dark-mode .navbar-brand,
+.dark-mode .btn-light {
+  color: #fff !important;
+}
+.dark-mode .btn-light {
+  background-color: #444 !important;
+  border: none;
+}
