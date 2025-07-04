@@ -1,6 +1,6 @@
 # Team 20 (QR Code generator)
 
-  L Jessica Effrosin
+  L Jessica Effrosini
 
   Abirami.A
 
