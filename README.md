@@ -6,7 +6,7 @@
 
   Swetha A
 
-# 🔳 Stylish QR Code Generator (with Dark Mode)
+## 🔳 Stylish QR Code Generator (with Dark Mode)
 
 A sleek and responsive web app that generates QR codes from any text or URL using the [GOQR API](https://goqr.me/api/). Includes a dark mode toggle, modern UI with Bootstrap 5, and an admin-friendly layout.
 
